@@ -9,10 +9,6 @@ import 'rxjs/add/operator/map';
 @Injectable()
 export class QuizService {
 
-// removed
-  // constructor() { }
-// removed
-
   constructor(private http: Http) { }
 
   get(url: string) {
@@ -21,9 +17,9 @@ export class QuizService {
 
   getAll() {
     return [
-      { id: 'data/aspnet.json', name: 'Asp.Net' },
-      { id: 'data/csharp.json', name: 'C Sharp' },
-      { id: 'data/designPatterns.json', name: 'Design Patterns' }
+      { id: 'data/myquestions.json', name: 'Test 1' },
+      // { id: 'data/myquestions.json', name: 'Test 2' },
+      // { id: 'data/myquestions.json', name: 'Test 3' }
     ];
   }
 
