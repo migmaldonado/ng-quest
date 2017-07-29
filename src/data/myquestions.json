@@ -12,13 +12,13 @@
                     "id": 1055,
                     "questionId": 1010,
                     "name": "Yes",
-                    "isAnswer": false
+                    "isAnswer": true
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
                     "name": "No",
-                    "isAnswer": true
+                    "isAnswer": false
                 }
             ],
             "questionType": {
@@ -60,13 +60,13 @@
                     "id": 1055,
                     "questionId": 1010,
                     "name": "Yes",
-                    "isAnswer": true
+                    "isAnswer": false
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
                     "name": "No",
-                    "isAnswer": false
+                    "isAnswer": true
                 }
             ],
             "questionType": {
@@ -108,13 +108,13 @@
                     "id": 1055,
                     "questionId": 1010,
                     "name": "Yes",
-                    "isAnswer": false
+                    "isAnswer": true
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
                     "name": "No",
-                    "isAnswer": true
+                    "isAnswer": false
                 }
             ],
             "questionType": {
@@ -156,13 +156,13 @@
                     "id": 1055,
                     "questionId": 1010,
                     "name": "Yes",
-                    "isAnswer": false
+                    "isAnswer": true
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
                     "name": "No",
-                    "isAnswer": true
+                    "isAnswer": false
                 }
             ],
             "questionType": {
