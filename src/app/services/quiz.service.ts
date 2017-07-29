@@ -13,6 +13,10 @@ export class QuizService {
 
   get(url: string) {
     return this.http.get(url).map(res => res.text().length > 0 ? res.json() : null);
+    // return 'assets/myquestions.json';
+
+    // return         this.http.get('data/data.json')
+    //             .subscribe(res => this.data = res.json());
   }
 
   getAll() {
